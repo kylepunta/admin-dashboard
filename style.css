@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.container div {
+    min-height: 200px;
+}
+
+.header {
+    background-color: deepskyblue;
+}
+
+.sidebar {
+    background-color: blueviolet;
+}
+
+.main-content {
+    background-color: aliceblue;
+}
