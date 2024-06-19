@@ -9,10 +9,6 @@ body {
     grid-template-rows: 1fr 4fr;
 }
 
-.container div {
-    /* min-height: 200px; */
-}
-
 .header {
     background-color: #FBFBFB;
     grid-column: 2 / 3;
