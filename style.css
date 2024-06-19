@@ -4,7 +4,9 @@ body {
 
 .container {
     height: 100%;
-    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
 }
 
 .container div {
@@ -12,13 +14,19 @@ body {
 }
 
 .header {
-    background-color: deepskyblue;
+    background-color: #FFFFFF;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
 .sidebar {
-    background-color: blueviolet;
+    background-color: deepskyblue;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
 }
 
 .main-content {
-    background-color: aliceblue;
+    background-color: #ececec;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
