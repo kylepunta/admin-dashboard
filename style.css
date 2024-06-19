@@ -95,9 +95,37 @@ input {
 .greeting-message {
     font-size: 20px;
     margin-bottom: 0px;
+    font-weight: bold;
 }
 
-.username-message {
+.greeting .username-message {
     font-size: 26px;
     margin-top: 10px;
+    font-weight: bold;
+}
+
+.header-right-corner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    align-items: center;
+}
+
+.header-right-corner .bell {
+    grid-area: 1 / 1 / 1 / 2;
+    display: grid;
+    place-items: center;
+}
+
+.header-right-corner .image-placeholder {
+    grid-area: 1 / 2 / 1 / 3;
+    background-color: #ECECEC;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.username {
+    grid-area: 1 / 3 / 1 / 4;
+    font-size: 20px;
+    font-weight: bold;
 }
