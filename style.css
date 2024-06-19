@@ -35,6 +35,40 @@ body {
     grid-row: 2 / 3;
 }
 
-.header div {
-    background-color: black;
+.header > div {
+    /* background-color: black; */
+    border: 1px solid black;
+}
+
+.header .search-bar {
+    background-color: #FBFBFB;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    align-items: center;
+}
+
+.search-icon {
+    display: grid;
+    place-items: center;
+}
+
+.search-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.search-input {
+    /* background-color: #ECECEC;
+    border-color: #ECECEC;
+    border-radius: 16px; */
+    height: 40px;
+    display: grid;
+    justify-items: start;
+}
+
+input {
+    background-color: #ECECEC;
+    border-radius: 16px;
+    border: 0px;
+    width: 90%;
 }
