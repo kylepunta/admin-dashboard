@@ -33,7 +33,7 @@ body {
 
 .header > div {
     /* background-color: black; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .header .search-bar {
@@ -95,6 +95,7 @@ input {
 .greeting-message {
     font-size: 20px;
     margin-bottom: 0px;
+    margin-top: 10px;
     font-weight: bold;
 }
 
@@ -106,14 +107,15 @@ input {
 
 .header-right-corner {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 2fr 1fr 2fr;
     align-items: center;
 }
 
 .header-right-corner .bell {
     grid-area: 1 / 1 / 1 / 2;
     display: grid;
-    place-items: center;
+    place-items: end;
+    margin-right: 24px;
 }
 
 .header-right-corner .image-placeholder {
@@ -122,10 +124,29 @@ input {
     width: 80px;
     height: 80px;
     border-radius: 50px;
+    justify-self: center;
 }
 
 .username {
     grid-area: 1 / 3 / 1 / 4;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.header-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+.new,
+.upload,
+.share {
+    background-color: #a5d3fc;
+    padding: 14px 50px;
+    border-radius: 30px;
+    color: white;
     font-size: 20px;
     font-weight: bold;
 }
