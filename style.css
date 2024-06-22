@@ -156,8 +156,11 @@ input {
     font-weight: bold;
 }
 
-.dashboard svg {
+.sidebar svg {
     fill: white;
+    width: 40px;
+    height: 40px;
+    justify-self: center;
 }
 
 .dashboard-heading h1 {
@@ -171,4 +174,5 @@ h2 {
 .sidebar > div:not(.dashboard) {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    align-items: center;
 }
