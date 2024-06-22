@@ -163,3 +163,12 @@ input {
 .dashboard-heading h1 {
     color: white;
 }
+
+h2 {
+    color: white;
+}
+
+.sidebar > div:not(.dashboard) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
