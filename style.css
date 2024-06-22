@@ -44,7 +44,7 @@ body {
     grid-row: 2 / 3;
 }
 
-.header .search-bar {
+.header .header-top-left-corner {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     background-color: #FBFBFB;
@@ -76,7 +76,7 @@ input {
     width: 90%;
 }
 
-.greeting {
+.header-bottom-left-corner {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     display: grid;
@@ -97,33 +97,33 @@ input {
     width: 80px;
 }
 
-.greeting-message {
+.header-bottom-left-corner-message {
     font-size: 20px;
     margin-bottom: 0px;
     margin-top: 10px;
     font-weight: bold;
 }
 
-.greeting .username-message {
+.header-bottom-left-corner .username-message {
     font-size: 26px;
     margin-top: 10px;
     font-weight: bold;
 }
 
-.header-right-corner {
+.header-top-right-corner {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     align-items: center;
 }
 
-.header-right-corner .bell {
+.header-top-right-corner .bell {
     grid-area: 1 / 1 / 1 / 2;
     display: grid;
     place-items: end;
     margin-right: 24px;
 }
 
-.header-right-corner .image-placeholder {
+.header-top-right-corner .image-placeholder {
     grid-area: 1 / 2 / 1 / 3;
     background-color: #ECECEC;
     width: 80px;
@@ -139,7 +139,7 @@ input {
     margin-left: 30px;
 }
 
-.header-buttons {
+.header-bottom-right-corner {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
