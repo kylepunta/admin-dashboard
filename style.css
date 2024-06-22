@@ -20,7 +20,7 @@ body {
 }
 
 .sidebar {
-    background-color: #52008a;
+    background-color: #8a0081;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     display: grid;
@@ -148,7 +148,7 @@ input {
 .new,
 .upload,
 .share {
-    background-color: #52008a;
+    background-color: #8a0081;
     padding: 14px 50px;
     border-radius: 30px;
     color: white;
