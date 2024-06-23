@@ -43,7 +43,7 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
-    grid-template-columns: 5fr 2fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 .header .header-top-left-corner {
@@ -181,7 +181,7 @@ input {
 
 .projects {
     display: grid;
-    grid-template-rows: 1fr 9fr;
+    grid-template-rows: 1fr 11fr;
 }
 
 .projects-heading {
@@ -191,4 +191,17 @@ input {
 
 .projects-heading h2 {
     margin: 0px 0px 0px 26px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 26px;
+    margin: 20px;
+}
+
+.card {
+    background-color: #8a0081;
+    border-radius: 20px;
 }
