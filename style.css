@@ -205,3 +205,50 @@ input {
     background-color: #8a0081;
     border-radius: 20px;
 }
+
+.announcements-trending {
+    display: grid;
+    grid-template-rows: 1fr 11fr;
+}
+
+.announcements-heading {
+    display: grid;
+    align-items: end;
+}
+
+.announcements-heading h2 {
+    margin: 0px;
+}
+
+.right-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px 20px 0px 0px;
+}
+
+.announcements-content {
+    background-color: #8a0081;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+    gap: 10px;
+}
+
+.trending-heading {
+    display: grid;
+    align-items: end;
+}
+
+.trending-content {
+    background-color: #8a0081;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.trending-heading h2 {
+    margin: 0px;
+}
