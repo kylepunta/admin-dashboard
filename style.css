@@ -174,10 +174,15 @@ input {
     color: white;
 }
 
-.sidebar > div:not(.dashboard) {
+.sidebar-one div,
+.sidebar-two div {
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
+}
+
+.sidebar-one {
+    margin-bottom: 40px;
 }
 
 .projects {
