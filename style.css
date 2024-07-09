@@ -214,6 +214,23 @@ input {
     background-color: white;
     border-radius: 20px;
     border-left: 10px solid var(--color-theme);
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+.card-content {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.card-buttons {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    justify-items: end;
+}
+
+.card-button {
+    margin-right: 20px;
 }
 
 .announcements-trending {
