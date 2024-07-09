@@ -1,3 +1,7 @@
+:root {
+    --color-theme: #37A1FF;
+}
+
 body {
     height: 100vh;
 }
@@ -21,7 +25,7 @@ body {
 }
 
 .sidebar {
-    background-color: #8a0081;
+    background-color: var(--color-theme);
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     display: grid;
@@ -152,7 +156,7 @@ input {
 .new,
 .upload,
 .share {
-    background-color: #8a0081;
+    background-color: var(--color-theme);
     padding: 14px 50px;
     border-radius: 30px;
     color: white;
@@ -209,7 +213,7 @@ input {
 }
 
 .card {
-    background-color: #8a0081;
+    background-color: var(--color-theme);
     border-radius: 20px;
 }
 
@@ -236,7 +240,7 @@ input {
 }
 
 .announcements-content {
-    background-color: #8a0081;
+    background-color: var(--color-theme);
     border-radius: 20px;
     margin-bottom: 10px;
     margin-top: 6px;
@@ -254,7 +258,7 @@ input {
 }
 
 .trending-content {
-    background-color: #8a0081;
+    background-color: var(--color-theme);
     border-radius: 20px;
     margin-bottom: 20px;
 }
